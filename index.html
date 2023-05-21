@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es-Mx">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Rodrigo Adrian Medellín Flores"/>
+        <meta name="description" content="Desafío Encriptador y Desencriptador del Programa Educativo ONE-Oracle G5"/>
+
+        <title>Challenge Encriptador</title>
+
+        <link rel="stylesheet" type="text/css" href="reset.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js" defer></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+
+            <div class="logo">
+                <h1><a href="index.html"><img src="Images/logo.png" alt="Logo de Alura (La letra a minúscula en color azul)"/></a></h1>
+            </div>
+
+            <section class="textoIngresado">
+                <textarea id="textoOriginal" type="text" placeholder="Ingrese el texto aquí"></textarea>
+                <p><img src="Images/exclamation.png" alt="Símbolo de Exclamación"/> El Resultado se mostrará en letras minúsculas y sin acentos</p>
+
+                <div class="botones">
+                    <button type="button" id="encriptar">Encriptar</button>
+                    <button type="button" id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            
+            <section class="textoTratado">
+                <img class="ocultos" src="Images/Muñeco.png" alt="Muñeco con una lupa mirando un diamante"/>
+                <h2 class="ocultos">Ningún mensaje fue encontrado</h2>
+                <p class="ocultos">Ingrese el texto que desees encriptar o desencriptar</p>
+                <textarea id="textoResultado" type="text" readonly class="textoResultado"></textarea>
+                <button id="copiar" type="button" class="botonCopiar">Copiar</button>
+            </section>
+            
+        </main>
+        
+        <footer>
+
+            <p><strong>Desafío Encriptador - Version 1.0</strong> &nbsp; ONE-Oracle &nbsp; Alura-Latam G5</p>
+            <p>Realizado por: &nbsp;<strong>Rodrigo Adrian Medellín Flores</strong></p>
+
+        </footer>
+    </body>
+</html>
